@@ -1,0 +1,58 @@
+{
+  "app": "FortuneIsland",
+  "note": "tapFrac is the normalised screen centre of a real RectTransform, computed from the canvas and not estimated. The menu canvas is Scale With Screen Size at reference 1242x2688 with ScreenMatchMode Expand, and the panels hang under an AspectRatioFitter locked to 1242/2688, so on a 1080x2400 device the canvas resolves to 1242x2760 with 36 units of letterbox top and bottom. For a rect centred at panel (x, y), origin at the panel centre and +y up: tapFracX = (621 + x) / 1242 and tapFracY = (1380 - y) / 2760.",
+  "steps": [
+    {
+      "waitLoader": true,
+      "shot": "01_Menu",
+      "why": "waits out the splash; the menu shows the island card, the Fortune Meter, the purse and PLAY"
+    },
+    {
+      "tapFrac": [0.5, 0.4783],
+      "label": "PLAY",
+      "waitLoader": true,
+      "shot": "02_Wheel",
+      "why": "panel (0, 60), 820x176 - the explicitly sized PLAY button; the game scene draws its own loader"
+    },
+    {
+      "tapFrac": [0.5, 0.8478],
+      "label": "SPIN",
+      "wait": 4,
+      "shot": "03_Spin_result",
+      "why": "panel (0, -960), 760x200; the wheel turns 3.2 s and stops on the treasure wedge with the banner up, 2 s before the hunt opens"
+    },
+    {
+      "wait": 3,
+      "shot": "04_Treasure_hunt",
+      "why": "the hunt overlay has opened over the wheel: six closed chests, PICKS LEFT 2"
+    },
+    {
+      "tapFrac": [0.5, 0.3949],
+      "label": "CHEST_TOP_MIDDLE",
+      "wait": 3,
+      "shot": "05_Chest_revealed",
+      "why": "panel (0, 290), 320x300 - top row, middle column; one chest opens and the counter drops to 1"
+    },
+    {
+      "tapFrac": [0.2101, 0.5181],
+      "label": "CHEST_BOTTOM_LEFT",
+      "wait": 4,
+      "shot": "06_Hunt_haul",
+      "why": "panel (-360, -50), 320x300 - bottom row, left column; the second pick raises the haul card"
+    },
+    {
+      "tapFrac": [0.5, 0.7862],
+      "label": "BACK_TO_THE_WHEEL",
+      "wait": 3,
+      "shot": "07_Wheel_after_hunt",
+      "why": "panel (0, -790), 760x160; closes the hunt itself rather than leaving it for a later step, and the wheel returns with a fuller meter and a bigger purse"
+    },
+    {
+      "tapFrac": [0.8785, 0.0833],
+      "label": "PAUSE",
+      "wait": 3,
+      "shot": "08_Pause_pop",
+      "why": "panel (470, 1150), 150x150; the pause pop over the dimmed scene, with its own wording and a real close icon"
+    }
+  ]
+}

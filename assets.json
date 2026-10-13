@@ -1,0 +1,202 @@
+{
+  "assets": [
+    {
+      "name": "BG_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "Vertical 19.5:9 portrait mobile game background, a bright tropical lagoon at golden hour, turquoise water, two palm silhouettes at the left and right edges, soft pale sand shore along the bottom, cheerful warm sky, palette #123B65 #00C9C8 #FFD447 #FF7657 #FFF6E3, low contrast and low detail across the whole centre so UI can sit on top, no text, no letters, no numbers, no UI elements, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "BG_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "Vertical 19.5:9 portrait mobile game background, a calm lagoon seen from the shore at dusk, softly blurred, darker and flatter than a menu background, no focal object anywhere in the centre, palette #0B2440 #123B65 #15496F with a faint turquoise haze at the horizon, very low contrast under UI, no text, no letters, no numbers, no UI elements, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_wheel_face",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_wheel_face.png",
+      "facing": "symmetric",
+      "prompt": "one single plain circular disc of pale varnished wood with a faint radial grain, perfectly round, flat even surface, no divisions, no spokes, no text, symmetric, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_wheel_rim",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_wheel_rim.png",
+      "facing": "symmetric",
+      "prompt": "one single ornate circular ring of golden rope and sea shells, hollow fully transparent centre, perfectly round, symmetric, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_wheel_hub",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_wheel_hub.png",
+      "facing": "symmetric",
+      "prompt": "one single golden compass-rose hub cap, round, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_pointer",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_pointer.png",
+      "facing": "side view, nose DOWN",
+      "prompt": "one single carved golden marlin-bill pointer, side view, nose DOWN, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_chest_closed",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_chest_closed.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single closed golden treasure chest, front view, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_chest_open",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_chest_open.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single open golden treasure chest with coins spilling over the rim, front view, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_coin",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_coin.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single thick gold coin with a palm-tree emblem, front view, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_key",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_key.png",
+      "facing": "side view, facing RIGHT",
+      "prompt": "one single golden key with a sea-shell bow, side view, facing RIGHT, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_crab",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_crab.png",
+      "facing": "side view, facing RIGHT",
+      "prompt": "one single small cheerful hermit crab, side view, facing RIGHT, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_coconut",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_coconut.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single cracked brown coconut, front view, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_gem_gold",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_gem_gold.png",
+      "facing": "symmetric",
+      "prompt": "one single faceted golden gem, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_gem_coral",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_gem_coral.png",
+      "facing": "symmetric",
+      "prompt": "one single faceted coral-pink gem, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_gem_green",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_gem_green.png",
+      "facing": "symmetric",
+      "prompt": "one single faceted emerald-green gem, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_splash_emblem",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_splash_emblem.png",
+      "facing": "symmetric",
+      "prompt": "one single abstract emblem of a stylised sun disc rising over a curling wave with two palm fronds, symmetric, centred, no letters, no text, no words, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_island_crest",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_island_crest.png",
+      "facing": "symmetric",
+      "prompt": "one single small round crest showing a palm islet on turquoise water, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_medal",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_medal.png",
+      "facing": "symmetric",
+      "prompt": "one single golden scallop-shell award medal with a ribbon, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_lock",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_lock.png",
+      "facing": "symmetric",
+      "prompt": "one single chunky closed padlock, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_tick",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_tick.png",
+      "facing": "symmetric",
+      "prompt": "one single thick rounded check-mark badge inside a circle, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_close_x",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_close_x.png",
+      "facing": "symmetric",
+      "prompt": "one single thick rounded cross icon inside a circle, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_flower",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_flower.png",
+      "facing": "symmetric",
+      "prompt": "one single tropical hibiscus flower seen from the front, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_compass",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_compass.png",
+      "facing": "symmetric",
+      "prompt": "one single brass nautical compass seen from above, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_arrow_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_arrow_back.png",
+      "facing": "side view, facing LEFT",
+      "prompt": "one single chunky rounded arrow, side view, facing LEFT, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    },
+    {
+      "name": "sprite_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_pause.png",
+      "facing": "symmetric",
+      "prompt": "one single chunky rounded pause icon of two vertical bars, symmetric, centred, no text, chunky casual mobile 3D, soft-clay stylized render, thick rounded forms, glossy highlights, bold clean shapes, saturated tropical light"
+    }
+  ]
+}
